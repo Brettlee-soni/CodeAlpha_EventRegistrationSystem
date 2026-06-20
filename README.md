@@ -137,39 +137,53 @@ spring.jpa.show-sql=true
 
 ## 📷 Screenshots
 
-### Project Structure
+### 1. Project Structure
+Shows the complete Spring Boot project structure including controllers, services, repositories, models, and configuration files.
 
-![Project Structure](ss/project-structure.png)
-
-### Add Event API
-
-![Add Event](ss/add-event.png)
-
-### View Events API
-
-![View Events](ss/view-events.png)
-
-### Update Event API
-
-![Update Event](ss/update-event.png)
-
-### Register User API
-
-![Register User](ss/register-user.png)
-
-### View Registrations API
-
-![View Registrations](ss/view-registrations.png)
-
-### Database Tables
-
-![Database](ss/database.png)
-
-### Application Running
-
-![Application Running](ss/application-running.png)
+![Project Structure](ss/Screenshot%202026-06-20%20184621.png)
 
 ---
+
+### 2. Create Event API (POST)
+Successfully created a new event using Postman.
+
+![Create Event](ss/Screenshot%202026-06-20%20184845.png)
+
+---
+
+### 3. View All Events API (GET)
+Retrieved all available events from the MySQL database.
+
+![View Events](ss/Screenshot%202026-06-20%20185104.png)
+
+---
+
+### 4. Update Event API (PUT)
+Updated event details including description and event information.
+
+![Update Event](ss/Screenshot%202026-06-20%20185145.png)
+
+---
+
+### 5. Database Records
+Event and registration data stored successfully in MySQL database.
+
+![Database Output](ss/Screenshot%202026-06-20%20185258.png)
+
+---
+
+### 6. View Registrations API (GET)
+Retrieved all participant registrations with event details.
+
+![View Registrations](ss/Screenshot%202026-06-20%20185439.png)
+
+---
+
+### 7. Register Participant API (POST)
+Successfully registered a participant for an event.
+
+![Register Participant](ss/Screenshot%202026-06-20%20185515.png)
+
 
 ## ▶️ How to Run
 
